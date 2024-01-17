@@ -1,0 +1,26 @@
+.peg-hole {
+  -fx-fill: #eae2b7;
+  -fx-stroke-width: 3px;
+  -fx-stroke: #4361ee;
+}
+
+.peg-hole:occupied {
+  -fx-fill: #3a0ca3;
+}
+
+
+.peg-hole:candidate {
+  -fx-fill: #e07a5f;
+}
+
+.peg-hole:target {
+  -fx-fill: #4cc9f0;
+}
+
+.peg-hole:invalid {
+  -fx-fill: #f72585;
+}
+
+.peg-hole:moving {
+  -fx-fill: #eae2b7;
+}
